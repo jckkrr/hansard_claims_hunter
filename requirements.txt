@@ -1,4 +1,4 @@
 plotly
 networkx
 pyvis
-bs4
+BeautifulSoup
