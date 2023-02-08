@@ -9,6 +9,8 @@ from requests import get
 from bs4 import BeautifulSoup
 import requests
 
+import lxml
+
 ### 
 
 def getSoup(url):
@@ -356,7 +358,7 @@ def runScript2():
     response = get(url, headers=None)
     st.write(response)
     
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(response.text, 'lxml')
 
     st.write(soup)
     
