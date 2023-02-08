@@ -360,7 +360,7 @@ def runScript2():
     
     soup = BeautifulSoup(response.content, 'lxml')
 
-    st.write(soup)
+    st.write(str(soup))
     
     return soup
     
