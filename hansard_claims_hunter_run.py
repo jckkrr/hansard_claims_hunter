@@ -356,7 +356,7 @@ def runScript2():
     response = get(url, headers=None)
     st.write(response)
     
-    soup = BeautifulSoup(response.text, 'lxml')
+    soup = BeautifulSoup(response.text, "html.parser")
 
     st.write(soup)
     
