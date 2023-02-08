@@ -348,6 +348,9 @@ def runScript():
     
 def runScript2():
     
+    user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14'
+    headers = {'User-Agent': user_agent,'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'}
+    
     url = 'https://www.aph.gov.au/Parliamentary_Business/Hansard'
     
     response = get(url, headers=None)
