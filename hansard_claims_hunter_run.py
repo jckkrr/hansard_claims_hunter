@@ -372,7 +372,7 @@ st.write('# HANSARD CLAIMS HUNTER #####')
 
 st.write('Searches the latest Hansards for claims that can be analysed by fact checker.') 
 
-runScript2()
+runScript()
 
 
 st.write('')
