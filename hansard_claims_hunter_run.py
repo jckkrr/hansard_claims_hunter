@@ -350,7 +350,7 @@ def runScript2():
     
     url = 'https://www.aph.gov.au/Parliamentary_Business/Hansard'
     
-    response = get(url, headers=headers)
+    response = get(url, headers=None)
     #soup = BeautifulSoup(response.text, 'lxml')
 
     return response
